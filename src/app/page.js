@@ -58,7 +58,7 @@ function swichIcon(bool,num){
    
  <div >
   {
-  pageWidth<=375?<Image src={myimge1} alt="" className="mx-auto" ></Image>:<Image src={myimge} alt="" className="mx-auto"></Image>
+  pageWidth<=375?<Image src={myimge1} alt="" className="mx-auto d-flex" ></Image>:<Image src={myimge} alt="" className="mx-auto d-flex"></Image>
   }
  
   <div className={` mx-auto centerAcc ${pageWidth<=375?"w-90 mt-132":"w-75 mt-220"} `}  >
